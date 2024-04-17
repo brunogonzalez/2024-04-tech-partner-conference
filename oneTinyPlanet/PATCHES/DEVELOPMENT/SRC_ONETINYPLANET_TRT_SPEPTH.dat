@@ -17,8 +17,6 @@ Variable Decimal VALEUR
 #Issue 4: wrong value
 #If VALEUR>=1000 : Call ECR_TRACE ("that is a lot of CO2",0) From GESECRAN : Endif
 If VALEUR>=100 : Call ECR_TRACE ("that is a lot of CO2",0) From GESECRAN : Endif
-#Issue3 - new control
-If VALEUR<10 : Call ECR_TRACE ("Good job !",0) From GESECRAN : Endif
 
 End
 
